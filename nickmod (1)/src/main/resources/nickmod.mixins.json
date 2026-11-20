@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.nickmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CommandManagerMixin",
+    "PlayerEntityMixin",
+    "PlayerListEntryMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
